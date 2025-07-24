@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patrix, Bootstrap 5 Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init({
+                publicKey: "z5Svhui9Gh8dHhzPC",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Diya</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="home" class="intro-section">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-md-6 intros text-start">
+                    <h1 class="display-2">
+                        <span class="display-2--intro">Diya Rajpoot Here!</span>
+                        <span class="display-2--description lh-base">
+                            Front end web developer specializing in creating responsive, user-friendly interfaces with HTML, CSS, and JavaScript.
+                        </span>
+                    </h1>
+                    <a href="#contact" style="text-decoration: none;">
+                        <button type="button" class="rounded-pill btn-rounded">Get in Touch
+                            <span><i class="fas fa-arrow-right"></i></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-md-6 intros text-end sec-1-img" >
+                    <div class="video-box">
+                        <img src="images/diya_Rajpoot (1).png" alt="">
+                        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold">Our Services</h1>
+                <div class="heading-line mb-1"></div>
+            </div>
+            <div class="row pt-2 pb-2 mt-0 mb-3">
+                <div class="col-md-6 border-right">
+                    <div class="bg-white p-3">
+                        <h2 class="fw-bold text-capitalize text-center">
+                            Our Services Range From Initial Design To Deployment Anytime Anywhere
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-white p-4 text-start">
+                        <p class="fw-light">
+                            I specialize in crafting responsive, user-centric web experiences through clean HTML, CSS, and JavaScript implementation. <b>My services include:</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                        <div class="services__content">
+                            <h3 class="display-3--title mt-1">Responsive Design</h3>
+                            <p class="lh-lg">
+                                Crafting websites that seamlessly adapt to all screen sizes, ensuring optimal viewing experiences across desktops, tablets, and mobile devices.
+                            </p>
+                            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                                <span><i class="fas fa-arrow-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+                        <div class="services__pic">
+                            <img src="images/services/service-1.png" alt="Marketing illustration" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+                        <div class="services__pic">
+                            <img src="images/services/service-2.png" alt="Web development illustration" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                        <div class="services__content">
+                            <h3 class="display-3--title mt-1">Performance Optimization</h3>
+                            <p class="lh-lg">
+                                Implementing techniques to reduce load times, minimize resource usage, and maximize speed for faster, more efficient websites.
+                            </p>
+                            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                                <span><i class="fas fa-arrow-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                        <div class="services__content">
+                            <h3 class="display-3--title mt-1">Modern Framework Integration</h3>
+                            <p class="lh-lg">
+                                Leveraging cutting-edge frameworks and libraries to deliver robust, scalable solutions that stay current with industry standards.
+                            </p>
+                            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                                <span><i class="fas fa-arrow-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+                        <div class="services__pic">
+                            <img src="images/services/service-3.png" alt="Cloud hosting illustration" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <div class="container">
+            <div class="row text-center text-white">
+                <h1 class="display-3 fw-bold">Testimonials</h1>
+                <hr style="width: 100px; height: 3px;" class="mx-auto">
+                <p class="lead pt-1">What our clients are saying</p>
+            </div>
+            <div class="row align-items-center">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    Working with Diya Rajpoot has been instrumental in bringing our startup's vision to life. She consistently delivers innovative solutions that not only look stunning but also drive real business results through thoughtful user experience design.
+                                    <i class="fas fa-quote-right"></i>
+                                    <div class="ratings p-1">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="testimonials__picture">
+                                <img src="images/testimonials/tehseen abbas.jpeg" alt="Client-1 picture" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="testimonials__name">
+                                <h3>Tehseen Abbas</h3>
+                                <p class="fw-light">Founder</p>
+                            </div>
+                        </div>     
+                        <div class="carousel-item">
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    Diya Rajpoot transformed our digital presence with her exceptional front-end development skills. Her ability to balance aesthetic design with technical precision has significantly elevated our online platform and user engagement.
+                                    <i class="fas fa-quote-right"></i>
+                                    <div class="ratings p-1">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="testimonials__picture">
+                                <img src="images/testimonials/hussain.png" alt="Client-2 picture" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="testimonials__name">
+                                <h3>Hussain Alam</h3>
+                                <p class="fw-light">CEO</p>
+                            </div>
+                        </div>     
+                        <div class="carousel-item">
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    As a fellow developer, I'm consistently impressed by Diya Rajpoot's clean, efficient code and problem-solving approach. She's the rare professional who can tackle complex technical challenges while maintaining excellent collaboration and communication
+                                    <i class="fas fa-quote-right"></i>
+                                    <div class="ratings p-1">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="testimonials__picture">
+                                <img src="images/testimonials/Mesum.jpg" alt="Client-3 picture" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="testimonials__name">
+                                <h3>Mesum Abbas</h3>
+                                <p class="fw-light">Web Developer</p>
+                            </div>
+                        </div>     
+                        <div class="carousel-item">
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    Diya Rajpoot has an exceptional talent for bringing designs to life with pixel-perfect accuracy and intuitive functionality. She truly understands the importance of user-centered design and consistently exceeds expectations in implementing my concepts.
+                                    <i class="fas fa-quote-right"></i>
+                                    <div class="ratings p-1">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="testimonials__picture">
+                                <img src="images/testimonials/farasat.jpg" alt="Client-4 picture" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="testimonials__name">
+                                <h3>Farsat Rehmat</h3>
+                                <p class="fw-light">UI/UX Designer</p>
+                            </div>
+                        </div>     
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        </button>
+                        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+                <div class="heading-line"></div>
+                <p class="lead">Frequently asked questions, get knowledge beforehand</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is your approach to responsive web design?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    I prioritize mobile-first development, ensuring websites are optimized for all devices from the start. I use flexible grids, media queries, and modern CSS frameworks to create seamless experiences across desktop, tablet, and mobile screens.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Do you work with any specific front-end frameworks?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, I have experience with popular frameworks like React and Next.js. I choose the appropriate framework based on project requirements, team expertise, and long-term maintainability goals.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do you collaborate with UI/UX designers in the development process?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    I believe in close collaboration between design and development. I review designs early in the process, provide technical feedback, and work closely with designers to ensure faithful implementation while maintaining performance and accessibility standards.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What techniques do you use for performance optimization?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    I implement various optimization techniques including image compression, code minification, lazy loading, caching strategies, and efficient asset management. I also focus on reducing JavaScript bundle sizes and optimizing critical rendering paths for faster load times.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row text-center mt-5">
+                <h1 class="display-3 fw-bold text-capitalize">Latest Work</h1>
+                <div class="heading-line"></div>
+                <p class="lead">
+                </p>
+            </div>
+            <div class="row mt-5 mb-4 g-3 text-center">
+                <div class="col-md-12">
+                    <button class="btn btn-outline-primary" type="button">All</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow hover-effect">
+                        <img src="images/portfolio-img/Portfolio1.png" alt="Portfolio 1 image" title="Portfolio 1 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 1</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio2.png" alt="Portfolio 2 image" title="Portfolio 2 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 2</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio3.png" alt="Portfolio 3 image" title="Portfolio 3 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 3</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio4.png" alt="Portfolio 4 image" title="Portfolio 4 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 4</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio5.png" alt="Portfolio 5 image" title="Portfolio 5 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 5</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio6.png" alt="Portfolio 6 image" title="Portfolio 6 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 6</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio-7.png" alt="Portfolio 7 image" title="Portfolio 7 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 7</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio-8.png" alt="Portfolio 8 image" title="Portfolio 8 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 8</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="images/portfolio-img/portfolio-9.png" alt="Portfolio 9 image" title="Portfolio 9 picture" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>Project name goes here 9</h4>
+                                <p>Category project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Started Section -->
+    <section id="contact" class="get-started">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold text-capitalize">Get Started</h1>
+                <div class="heading-line"></div>
+                <p class="lh-lg">
+                </p>
+            </div>
+            <div class="row text-white">
+                <div class="col-12 col-lg-6 gradient shadow p-3">
+                    <div class="cta-info w-100">
+                        <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+                        <p class="lh-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+                        </p>
+                        <h3 class="display-3--brief">What will be the next step?</h3>
+                        <ul class="cta-info__list">
+                            <li>We'll prepare the proposal.</li>
+                            <li>We'll discuss it together.</li>
+                            <li>Let's start the discussion.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 bg-white shadow p-3">
+                    <div class="form w-100 pb-2">
+                        <h4 class="display-3--title mb-5">Start Your Project</h4>
+                        <form class="row" id="formData">
+                            <div class="col-lg-6 col-md mb-3">
+                                <input type="text" placeholder="First Name" id="Fname" class="shadow form-control form-control-lg" name="user_fName">
+                            </div>
+                            <div class="col-lg-6 col-md mb-3">
+                                <input type="text" placeholder="Last Name" id="Lname" class="shadow form-control form-control-lg" name="user_lName">
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <input type="email" placeholder="Email Address" id="email" class="shadow form-control form-control-lg" name="user_email">
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <textarea name="message" placeholder="Message" id="message" rows="8" class="shadow form-control form-control-lg" name="user_message"></textarea>
+                            </div>
+                            <div class="text-center d-grid mt-1">
+                                <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
+                                    Submit
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                            <div id="status-bar"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                            <line x1="3" y1="19" x2="9" y2="13" />
+                            <line x1="15" y1="13" x2="21" y2="19" />
+                        </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="#" class="contact-box__info--title">diyadee0702@gmail.com</a>
+                        <p class="contact-box__info--subtitle">Online support</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="18" y1="6" x2="18" y2="6.01" />
+                            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                            <line x1="9" y1="4" x2="9" y2="17" />
+                            <line x1="15" y1="15" x2="15" y2="20" />
+                        </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="#" class="contact-box__info--title">Binary Hub</a>
+                        <p class="contact-box__info--subtitle">Jutial Gilgit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sm" style="background-color: #212121;">
+            <div class="container">
+            
+            </div>
+        </div>
+        
+        <div class="footer-bottom pt-5 pb-5">
+            <div class="container">
+                <div class="row text-center text-white">
+                    <div class="col-12">
+                        <div class="footer-bottom__copyright">
+                            &COPY; Copyright 2025 Diya Rajpoot
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            'touchNavigation': true,
+            'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideos': 'true',
+        });
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('formData');
+            const statusMessage = document.getElementById('status-bar');
+            
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                
+                const formData = {
+                    user_fName : document.getElementById('Fname').value,
+                    user_lName: document.getElementById('Lname').value,
+                    user_email: document.getElementById('email').value,
+                    user_message: document.getElementById('message').value
+                };
+            
+                emailjs.send("service_7k9tsvf", "template_npxmegl", formData)
+                    .then(response => {
+                        statusMessage.textContent = 'Message sent successfully!';
+                        statusMessage.style.color = 'green';
+                        form.reset();
+                    })
+                    .catch(error => {
+                        statusMessage.textContent = 'Error sending message. Please try again.';
+                        statusMessage.style.color = 'red';
+                        console.error('EmailJS error:', error);
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
